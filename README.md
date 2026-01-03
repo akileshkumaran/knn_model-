@@ -1,22 +1,22 @@
-# knn_model-
+# knn_model
 This project demonstrates the implementation of a K-Nearest Neighbors (KNN) classification model using Orange Data Mining tool. The workflow includes data loading, data sampling, model training, evaluation, and prediction. Along with KNN, Logistic Regression and Decision Tree models are also used for performance comparison.
-# KNN Classification Model using Orange Data Mining
+## KNN Classification Model using Orange Data Mining
 
-##  Project Overview
+###  Project Overview
 This project implements a K-Nearest Neighbors (KNN) classification model using Orange Data Mining.  
 The workflow includes dataset loading, data sampling, model training, testing, and prediction.
 
-##  Objective
+###  Objective
 - To build a KNN classification model
 - To evaluate model performance
 - To compare KNN with other ML models
 
-##  Tools Used
+###  Tools Used
 - Orange Data Mining
 - Machine Learning Algorithms
 - KNN, Logistic Regression, Decision Tree
 
-##  Project Workflow
+###  Project Workflow
 1. Dataset loading
 2. Data visualization (Data Table & Scatter Plot)
 3. Data sampling (Train & Test split)
@@ -24,18 +24,26 @@ The workflow includes dataset loading, data sampling, model training, testing, a
 5. Model evaluation (Test and Score)
 6. Prediction generation
 
-##  Algorithms Used
+### Algorithms Used
 - K-Nearest Neighbors (KNN)
 - Logistic Regression
 - Decision Tree
 
-##  Evaluation
+###  Evaluation
 Models are evaluated using accuracy and other performance metrics through the Test and Score module.
 
-##  Conclusion
+###  Conclusion
 This project demonstrates an end-to-end machine learning classification workflow using Orange in a simple and visual manner.
 
-##  Screenshot:<img width="1069" height="786" alt="Screenshot 2026-01-03 160057" src="https://github.com/user-attachments/assets/e546a854-a15c-400a-8f59-a1f4765bc9ae" />
+###  Screenshot:<img width="1069" height="786" alt="Screenshot 2026-01-03 160057" src="https://github.com/user-attachments/assets/e546a854-a15c-400a-8f59-a1f4765bc9ae" />
 
 Workflow screenshot is included in this repository.
+
+## RESULT:
+| Model    | AUC   | CA (Accuracy) | F1    | Precision | Recall | MCC   |
+| ------------------- | ----- | ------------- | ----- | --------- | ------ | ----- |
+| KNN                 | 0.998 | 0.960         | 0.960 | 0.960     | 0.960  | 0.940 |
+| Decision Tree       | 0.993 | 0.980         | 0.980 | 0.980     | 0.980  | 0.970 |
+| Logistic Regression | 0.999 | 0.980         | 0.980 | 0.980     | 0.980  | 0.970 |
+
 
