@@ -1,1 +1,52 @@
+##  Dataset Description
+
+### Dataset Name
+Iris Flower Dataset
+
+### Dataset Source
+UCI Machine Learning Repository  
+Originally introduced by R. A. Fisher in 1936.
+
+### Dataset Overview
+The Iris dataset is a classic and widely used dataset for evaluating classification algorithms in machine learning and statistics.  
+Each instance in the dataset represents a single iris flower plant.
+
+### Dataset Characteristics
+- Data Type: Tabular
+- Subject Area: Biology
+- Associated Task: Classification
+- Feature Type: Real-valued
+
+### Dataset Size
+- Number of Instances: 150
+- Number of Features: 4
+- Number of Classes: 3 (50 instances per class)
+
+### Features Description
+The dataset contains the following attributes:
+- Sepal Length (cm)
+- Sepal Width (cm)
+- Petal Length (cm)
+- Petal Width (cm)
+
+### Target Variable
+- Iris Species:
+  - Iris Setosa
+  - Iris Versicolor
+  - Iris Virginica
+
+### Dataset Details
+- Each row represents an iris flower.
+- One class (Iris Setosa) is linearly separable from the other two classes.
+- The remaining two classes are not linearly separable from each other.
+
+### Purpose of Using the Dataset
+The Iris dataset is used to:
+- Train and test the K-Nearest Neighbors (KNN) classification model
+- Evaluate classification performance
+- Compare KNN with other machine learning algorithms
+
+### Preprocessing
+- Dataset contains no missing values
+- Data is split into training and testing sets using data sampling
 
