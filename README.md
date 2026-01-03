@@ -35,6 +35,7 @@ Models are evaluated using accuracy and other performance metrics through the Te
 ##  Conclusion
 This project demonstrates an end-to-end machine learning classification workflow using Orange in a simple and visual manner.
 
-##  Screenshot:
+##  Screenshot:<img width="1069" height="786" alt="Screenshot 2026-01-03 160057" src="https://github.com/user-attachments/assets/e546a854-a15c-400a-8f59-a1f4765bc9ae" />
+
 Workflow screenshot is included in this repository.
 
